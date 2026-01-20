@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Portfolio - Rajesh Bhandari</title>
+    <meta
+      name="description"
+      content="A student learning HTML, CSS, JavaScript"
+    />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Quicksand:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link rel="stylesheet" href="global.css" />
+    <link rel="stylesheet" href="css/hero.css" />
+    <link rel="stylesheet" href="css/common.css" />
+    <link rel="stylesheet" href="css/skill.css" />
+    <link rel="stylesheet" href="css/about.css" />
+    <link rel="stylesheet" href="css/sidebar.css" />
+    <link rel="stylesheet" href="css/contact.css" />
+    <link rel="stylesheet" href="css/education.css">
+
+  </head>
+  <body>
+    <nav class="sidebar">
+      <i id="hamburger" class="fa-solid fa-bars sidebar_hamburger"></i>
+      <div class="sidebar_content">
+
+    <ul class="sidebar_list">
+      <li><a href="#hero">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </div>
+    </nav>
+
+    <section id="hero">
+      <h1>
+        Hi! <br />I'm Rajesh <br />
+      </h1>
+      <p>Computer Engineering Student</p>
+      <button onclick="document.getElementById('contact').scrollIntoView({behavior: 'smooth'})">
+        <span>Contact Me</span><i class="fa-solid fa-message"></i>
+      </button>
+    </section>
+
+    <section id="about" class="section">
+      <p class="section_title">About Me</p>
+      <p class="section_subtitle">Who am I?</p>
+
+      <p class="about_description">
+        <strong>Hi, I am Rajesh,</strong>
+        a passionate and curious learner with a strong interest in technology and problem-solving. I enjoy exploring how software and systems work, and I’m always motivated to improve my skills through hands-on projects and continuous learning.Beyond technical skills, I value clear communication, teamwork, and adaptability. I’m always open to learning new tools and technologies and aim to build solutions that are both practical and meaningful.
+      </p>
+      <div class="about_skills">
+        <div class="about_skills_box">
+          <i class="fa-solid fa-chart-line"></i>
+          <h3>Data Science</h3>
+        </div>
+    
+        <div class="about_skills_box">
+          <i class="fa-solid fa-globe"></i>
+          <h3>Web Design</h3>
+        </div>
+    
+        <div class="about_skills_box">
+          <i class="fa-solid fa-database"></i>
+          <h3>SQL</h3>
+        </div>
+        <div class="about_skills_box">
+      <i class="fa-solid fa-code"></i>
+      <h3>Programming (C / C++)</h3>
+    </div>
+      </div>
+    </section>
+
+    <section id="skills" class="section">
+      <p class="section_title">My Speciality</p>
+      <p class="section_subtitle">My Skills</p>
+      <div class="all-skills">
+        <div class="skill">
+          <p>HTML5</p>
+          <div class="skill_bg_box">
+            <div class="skill_percent_box" style="--skill-color: #2c98f0; width: 75%">
+              <span>75%</span>
+            </div>
+            </div>
+            </div>
+
+          <div class="skill">
+          <p>CSS3</p>
+          <div class="skill_bg_box">
+            <div class="skill_percent_box" style="--skill-color: red; width: 50%">
+              <span>50%</span>
+           
+          </div>
+        </div>
+      </div>
+
+      <div class="skill">
+          <p>JavaScript</p>
+          <div class="skill_bg_box">
+            <div class="skill_percent_box" style="--skill-color: green; width: 30%">
+              <span>30%</span>
+           
+          </div>
+        </div>
+      </div>
+
+      <div class="skill">
+          <p>Data Science</p>
+          <div class="skill_bg_box">
+            <div class="skill_percent_box" style="--skill-color: darkviolet; width: 40%">
+              <span>40%</span>
+           
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="education" class="education-section">
+        <p class="section_title">Education</p>
+        <p class="section_subtitle">My Education</p>
+
+        <div class="timeline">
+            <div class="timeline-item">
+                <div class="icon-wrapper">
+                    <div class="icon-circle color-purple">
+                        <i class="fa-solid fa-pen-to-square"></i>
+                    </div>
+                </div>
+                <div class="content-card">
+                    <h3>SEE <span class="year">2021</span></h3>
+                    <h1>Cambridge English Boarding School</h1>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="icon-wrapper">
+                    <div class="icon-circle color-red">
+                        <i class="fa-solid fa-pen-to-square"></i>
+                    </div>
+                </div>
+                <div class="content-card">
+                    <h3>+2 Science <span class="year">2023</span></h3>
+                    <h1>Kathmandu Bernhardt Secondary School & College</h1>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="icon-wrapper">
+                    <div class="icon-circle color-blue">
+                        <i class="fa-solid fa-pen-to-square"></i>
+                    </div>
+                </div>
+                <div class="content-card">
+                    <h3>BCT Computer <span class="year">Running</span></h3>
+                    <h1>National College of Engineering</h1>
+                </div>
+            </div>
+            
+            <!-- Bottom End Circle -->
+             <div class="timeline-end-circle"></div>
+        </div>
+    </section>
+    
+<section id="contact" class="section">
+  <span class="section_title">get in touch</span>
+  <h2 class="section_subtitle">contact</h2>
+   <form action="" id="contactForm" class="contact_form" onsubmit="submitForm(event);">
+    <input
+      type="text"
+      placeholder="Name"
+      id="name"
+      name="name"
+      class="contact_input"
+    />
+    <textarea
+      id="message"
+      class="contact_textarea"
+      name="message"
+      placeholder="Message"
+      rows="4"
+    ></textarea>
+    <button class="contact_button" type="submit">Send Message</button>
+  </form>
+</section>
+
+    <script>
+      const hamburger = document.getElementById("hamburger");
+      hamburger.addEventListener("click", () => {
+        hamburger.classList.toggle("sidebar_hamburger_translate");
+      });
+    </script>
+  </body>
+</html>
