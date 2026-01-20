@@ -22,7 +22,7 @@ jobs:
 
       - name: Upload files to S3
         run: |
-           aws s3 sync rajesh-027/ s3://${{ secrets.S3_BUCKET }}/rajesh-027/ \
+           aws s3 sync Rajesh-27/ s3://${{ secrets.S3_BUCKET }}/Rajesh-27/ \
             --delete \
             --exclude ".git/*" \
             --exclude ".github/*"
